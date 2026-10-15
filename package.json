@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-validacao-boleto",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Valida linha digitável e código de barras de boleto bancário e de arrecadação, conferindo todos os DVs, e extrai valor e vencimento com o novo fator de 2025. Contas a pagar sem pagamento errado.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
